@@ -1,0 +1,22 @@
+{
+  "appId": "com.fintechos.core.n.demo",
+  "appName": "FintechOS Native Demo",
+  "bundledWebRuntime": true,
+  "npmClient": "npm",
+  "webDir": "www",
+  "appendUserAgent": "FtosNative",
+  "server": {
+    "url": "https://training0003.westeurope.cloudapp.azure.com/FTOS_Portal/Main",
+    "allowNavigation": [
+      "training0003.westeurope.cloudapp.azure.com"
+    ]
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    },
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound", "alert"]
+    }
+  }
+}

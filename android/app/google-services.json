@@ -1,0 +1,119 @@
+{
+  "project_info": {
+    "project_number": "555987978933",
+    "firebase_url": "https://testnotifapp-ee3e4.firebaseio.com",
+    "project_id": "testnotifapp-ee3e4",
+    "storage_bucket": "testnotifapp-ee3e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555987978933:android:229f44cbcb7389b9004cfc",
+        "android_client_info": {
+          "package_name": "com.fintechos.core.n.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555987978933-4e90f6q7r73mkmh16rve511uk2ghm12l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC12GeSLXi8jtDN9creQLUZlvMdqqLpyyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555987978933-4e90f6q7r73mkmh16rve511uk2ghm12l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "555987978933-i1u7kbjof4ncf7r0le8nmav5sa8c85kl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fintechos.core.n.demo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555987978933:android:eccff4821f574328004cfc",
+        "android_client_info": {
+          "package_name": "com.ftos.testnotifapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555987978933-4e90f6q7r73mkmh16rve511uk2ghm12l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC12GeSLXi8jtDN9creQLUZlvMdqqLpyyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555987978933-4e90f6q7r73mkmh16rve511uk2ghm12l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "555987978933-i1u7kbjof4ncf7r0le8nmav5sa8c85kl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fintechos.core.n.demo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555987978933:android:f06f493437e65c68004cfc",
+        "android_client_info": {
+          "package_name": "com.xamarin.notifysample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555987978933-4e90f6q7r73mkmh16rve511uk2ghm12l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC12GeSLXi8jtDN9creQLUZlvMdqqLpyyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555987978933-4e90f6q7r73mkmh16rve511uk2ghm12l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "555987978933-i1u7kbjof4ncf7r0le8nmav5sa8c85kl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fintechos.core.n.demo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
