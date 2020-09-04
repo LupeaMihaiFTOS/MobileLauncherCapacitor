@@ -1,15 +1,17 @@
 {
   "appId": "com.fintechos.core.n.demo",
-  "appName": "FintechOS Native Demo",
-  "bundledWebRuntime": true,
+  "appName": "Piraeus Onboarding Demo",
   "npmClient": "npm",
   "webDir": "www",
   "appendUserAgent": "FtosNative",
   "server": {
-    "url": "https://training0003.westeurope.cloudapp.azure.com/FTOS_Portal/Main",
+    "url": "https://dev0026.westeurope.cloudapp.azure.com/PiraeusBankPOC_Online/Main#/userjourney/FTOS_BARET_AccountApplication/insert/form/DigitalOnboarding",
     "allowNavigation": [
-      "training0003.westeurope.cloudapp.azure.com"
-    ]
+      "192.168.29.6:58866",
+      "192.168.29.*",
+      "dev0026.westeurope.cloudapp.azure.com"
+    ],
+    "allowMixedContent": true
   },
   "plugins": {
     "SplashScreen": {

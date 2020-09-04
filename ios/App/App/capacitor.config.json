@@ -1,1 +1,24 @@
-{}
+{
+  "appId": "com.fintechos.core.n.demo",
+  "appName": "Piraeus Onboarding Demo",
+  "npmClient": "npm",
+  "webDir": "www",
+  "appendUserAgent": "FtosNative",
+  "server": {
+    "url": "https://dev0026.westeurope.cloudapp.azure.com/PiraeusBankPOC_Online/Main#/userjourney/FTOS_BARET_AccountApplication/insert/form/DigitalOnboarding",
+    "allowNavigation": [
+      "192.168.29.6:58866",
+      "192.168.29.*",
+      "dev0026.westeurope.cloudapp.azure.com"
+    ],
+    "allowMixedContent": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    },
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound", "alert"]
+    }
+  }
+}

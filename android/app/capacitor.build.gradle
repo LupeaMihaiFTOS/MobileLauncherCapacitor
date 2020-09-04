@@ -9,10 +9,10 @@ android {
 
 apply from: "../capacitor-cordova-android-plugins/cordova.variables.gradle"
 dependencies {
-
+    implementation project(':capacitor-secure-storage-plugin')
 
 }
-
+apply from: "../../node_modules/cordova-plugin-fingerprint-aio/src/android/build.gradle"
 
 if (hasProperty('postBuildExtras')) {
   postBuildExtras()
