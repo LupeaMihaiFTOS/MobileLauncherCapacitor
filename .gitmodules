@@ -1,0 +1,3 @@
+[submodule "capacitor"]
+	path = capacitor
+	url = https://github.com/LupeaMihaiFTOS/capacitor.git
