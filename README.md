@@ -1,16 +1,31 @@
-## Created with Capacitor Create
+# FintechOS Native Launcher starter project
+Created with Capacitor Create. Dependent on capacitor
+### To clone the project
+```
+git clone --recursive https://github.com/LupeaMihaiFTOS/MobileLauncherCapacitor.git
+```
 
-This app was created using the `npx @capacitor/cli create` command, and comes with a very
-minimal shell for building an app.
+### To start using the Capacitor CLI inside the project
+```
+cd capacitor
+npm install
+npm run build
+cd ../
+npm install
+```
 
-Note: unless you know what you're doing, we don't recommend using the `create` way of building an app. Instead, you'll
-likely want to create an app using your framework's tooling (such as `create-react-app`), and then *add* capacitor
-to *that* project (using `npx @capacitor/cli init`).
+
+#### Custom changes on the fork of capacitor
+- The capacitor runtime is injected where a script tag with src of "ftos-native.js" is requested. It is safe for other runtimes already injected.
+```
+<script type="text/javascript" src="ftos-native.js"></script>
+```
+- Main page redirects (page.html with status code 302) now reflects the new URL in the WebView
 
 ### Running this example
-
-To run the provided example, can use serve command:
-
-```bash
-npx cap serve
+1. Sync the native projects with the capacitor files
 ```
+npx cap sync
+```
+2. Open native project (folder Android or folder iOS) and use the native toolkit to run the app.
+
