@@ -1,0 +1,23 @@
+{
+  "name": "pluginwrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "private": "true",
+  "scripts": {
+    "build": "npm run clean && tsc && webpack",
+    "clean": "rimraf ./build ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@capacitor/core": "^2.4.2",
+    "@types/jquery": "^3.5.1",
+    "capacitor-secure-storage-plugin": "^0.4.0",
+    "cordova-plugin-fingerprint-aio": "^3.0.1",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "@ionic-native/fingerprint-aio": "^5.28.0"
+  }
+}

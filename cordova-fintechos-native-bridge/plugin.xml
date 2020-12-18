@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-fintechos-native-bridge" version="1.0.0"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>FintechosNativeBridge</name>
+    <js-module name="FintechosNativeBridge" src="www/FintechosNativeBridge.js">
+        <clobbers target="cordova.plugins.FintechosNativeBridge" />
+    </js-module>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="FintechosNativeBridge">
+                <param name="ios-package" value="FintechosNativeBridge" />
+            </feature>
+        </config-file>
+        <source-file src="src/ios/FintechosNativeBridge.swift" />
+    </platform>
+    <preference name="TEST_PREF" default="default-value" />
+</plugin>
