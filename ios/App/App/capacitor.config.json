@@ -5,11 +5,12 @@
   "webDir": "www",
   "appendUserAgent": "FtosNative",
   "server": {
-    "url": "https://dev0035.westeurope.cloudapp.azure.com/RBRO/onboarding",
+    "url": "https://dev0022.westeurope.cloudapp.azure.com/FTOS_Portal/Main",
     "allowNavigation": [
       "192.168.29.6:58866",
       "192.168.29.*",
       "dev0026.westeurope.cloudapp.azure.com",
+      "dev0022.westeurope.cloudapp.azure.com",
       "dev0035.westeurope.cloudapp.azure.com"
     ],
     "allowMixedContent": true

@@ -2,8 +2,5 @@
 include ':capacitor-android'
 project(':capacitor-android').projectDir = new File('../node_modules/@capacitor/android/capacitor')
 
-include ':capacitor-plugin-fintechos-core'
-project(':capacitor-plugin-fintechos-core').projectDir = new File('../node_modules/capacitor-plugin-fintechos-core/android')
-
 include ':capacitor-secure-storage-plugin'
 project(':capacitor-secure-storage-plugin').projectDir = new File('../node_modules/capacitor-secure-storage-plugin/android')
